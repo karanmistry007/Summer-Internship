@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Restaurant</title>
+        <link rel="stylesheet" href="restaurant.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="restaurant.js">
+        </script>
+    </head>
+    <body>
+        <header id="header">
+            <div id="logo">
+                <img src="logo1.png" alt="SAM'S PIZZA">
+            </div>
+            <div>
+                <ul id="list_1">
+                    <li><a href="home.html" id="list_1_1">
+                        HOME
+                    </a></li>
+                    <li><a href="aboutus.html" id="list_1_1">
+                        ABOUT US
+                    </a></li>
+                    <li><a href="ourbranch.html" id="list_1_1">
+                        OUR BRANCHES
+                    </a></li>
+                    <li><a href="menu.html" id="list_1_1">
+                        MENU
+                    </a></li>
+                    <li><a href="contact.html" id="list_1_1">
+                        CONTACT
+                    </a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="images">
+            <img src="one.jpg" alt="SAM'S PIZZA" id="image_1">
+        </div>
+        <section id="bg_image">
+        <div id="order">
+            <h1>ORDER ONLINE</h1>
+        </div>
+        <div id="online">
+            <div id="pizza">
+                <img src="pizza1.jpg" id="image_2">
+                <p id="name">margherita pizza <i class="fa-regular fa-heart" id="like"></i></p>
+            <center><p id="rating">4.5/5<i class="fa-solid fa-star"></i></p></center>
+               <p id="price">₹99</p>
+               <button id="atc" onclick="addtocart1()">ADD TO CART</button>
+            </div>
+            <div id="pizza">
+                <img src="pizza2.jpg" id="image_2">
+                <p id="name">olive pizza <i class="fa-regular fa-heart" id="like"></i></p>
+                <center><p id="rating">3.5/5<i class="fa-solid fa-star"></i></p></center>
+                <p id="price">₹149</p>
+                <button id="atc" onclick="addtocart2()">ADD TO CART</button>
+            </div>
+            <div id="pizza">
+                <img src="pizza3.jpg" id="image_2">
+                <p id="name">farmhouse pizza <i class="fa-regular fa-heart" id="like"></i></p>
+                <center><p id="rating">4/5<i class="fa-solid fa-star"></i></p></center>
+                <p id="price">₹199</p>
+                <button id="atc" onclick="addtocart3()">ADD TO CART</button>
+            </div>
+        </div>
+        </section>
+        <footer id="footer">
+            <div>
+                <img src="logo2.png">
+                <p>Sam’s Pizza is all about food, friends and fun unlimited.</p>
+                <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                <label>Email</label>
+                <input type="text">
+                <button id="social">SUBSCRIBE</button>
+            </div>
+            <div>
+                <h3>QUICK LINKS</h3>
+               <center><div id="ul_1"></div></center> 
+                <ul id="list_2">
+                    <li id="social">Home</li>
+                    <li id="social">About us</li>
+                    <li id="social">Our Menu</li>
+                    <li id="social">Franchise</li>
+                    <li id="social">What's New</li>
+                </ul>
+            </div>
+            <div>
+                <h3>MORE LINKS</h3>
+            <center><div id="ul_1"></div></center> 
+                <ul id="list_2">
+                    <li id="social">Store Locator</li>
+                    <li id="social">Contact Us</li>
+                    <li id="social">Career</li>
+                    <li id="social">FAQ</li>
+                    <li id="social">Sitemap</li>
+                    <li id="social">Privacy Poilcy</li>
+                </ul>
+            </div>
+            <div>
+                <h3>GET IN TOUCH</h3>
+            <div id="ul_1"></div>
+                <p id="social"><i class="fa-solid fa-location-dot"></i>  17th Floor, Sankalp Square 3 -A, Taj Skyline, Sindhubhavan Road, Ahmedabad 380058</p>
+                <p id="social"><i class="fa-solid fa-phone"></i>  +91 79 40710000</p>
+                <p id="social"><i class="fa-solid fa-envelope"></i>  info@samspizza.in</p>
+                <p id="social"><i class="fa-solid fa-globe"></i>  samspizza.in</p>
+                <a href="#"><i class="fab fa-facebook-f fa-2x"  id="social"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"  id="social"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"  id="social"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in fa-2x"  id="social"></i></a>
+            </div>
+        </footer>
+
+    </body>
+</html>
